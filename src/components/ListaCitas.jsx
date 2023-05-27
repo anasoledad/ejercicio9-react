@@ -1,10 +1,11 @@
-import React from 'react';
+import { Button, ListGroup } from "react-bootstrap";
+import ItemLista from "./ItemLista";
 
 const ListaCitas = () => {
     return (
-        <div>
-            
-        </div>
+        <ListGroup> 
+            <ItemLista></ItemLista>
+        </ListGroup>
     );
 };
 

@@ -1,4 +1,5 @@
 import { Form, Button, Container, Row, Col } from "react-bootstrap";
+import ListaCitas from "./ListaCitas";
 
 const Formulario = () => {
   return (
@@ -35,13 +36,17 @@ const Formulario = () => {
           </Form.Group>
 
           <div className="d-flex justify-content-center justify-content-sm-end">
-            <Button variant="dark" className="px-5" type="submit">
-              Agregar nueva cita
+            <Button variant="dark" className="px-5 mb-5" type="submit">
+              Enviar
             </Button>
           </div>
         </Form>
+        <ListaCitas></ListaCitas>
+        
       </Col>
+
     </Container>
+    
   );
 };
 
