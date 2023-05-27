@@ -36,7 +36,7 @@ const Formulario = () => {
 
           <div className="d-flex justify-content-center justify-content-sm-end">
             <Button variant="dark" className="px-5" type="submit">
-              Enviar
+              Agregar nueva cita
             </Button>
           </div>
         </Form>
