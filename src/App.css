@@ -1,0 +1,13 @@
+.bgForm{
+    background: #85b1b6;
+}
+#root{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  .mainPage{
+    flex-grow: 1;
+  }
