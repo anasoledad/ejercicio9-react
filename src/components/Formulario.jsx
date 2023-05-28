@@ -29,11 +29,17 @@ const Formulario = () => {
           setHora('');
           setSintomas('');
       
-          Swal.fire("Se enviaron los datos");
+          Swal.fire("Nueva cita registrada");
         } else {
           Swal.fire("Faltan campos por llenar");
         }
       };
+
+      const borrarCita = (nombreCita)=>{
+        let arregloFiltrado = datos.filter((itemCita)=> itemCita.nombreMascota !== nombreCita)
+        setDatos(arregloFiltrado);
+      }
+    
 
   return (
     <Container className="pt-4 pb-5 px-3 d-flex justify-content-center">
@@ -80,7 +86,7 @@ const Formulario = () => {
             </Button>
           </div>
         </Form>
-        <ListaCitas datos={datos}></ListaCitas>
+        <ListaCitas datos={datos} borrarCita={borrarCita}></ListaCitas>
         
       </Col>
 
