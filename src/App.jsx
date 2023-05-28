@@ -7,7 +7,7 @@ function App() {
   return (
     <section className='mainPage'>
       <div>
-          <h1 className='text-center pt-5'>Administrador de pacientes de veterinaria</h1>
+          <h1 className='text-center py-4 bg-white mt-3'>Administrador de pacientes de veterinaria</h1>
           <Formulario></Formulario>
       </div>
       <footer className='bg-dark text-light text-center py-4'>

@@ -1,13 +1,16 @@
 .bgForm{
-    background: #85b1b6;
+    background: #63ceaf;
 }
 #root{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    
+    background-image: url('../src/images/animales.jpg'); 
   }
   
   .mainPage{
     flex-grow: 1;
+  }
+  body{
+    
   }
