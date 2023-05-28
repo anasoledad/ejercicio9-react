@@ -11,7 +11,7 @@ function BrandExample() {
           <Navbar.Brand href="#home">
             <img
               alt="logo"
-              src="src/images/logo.png"
+              src="../src/images/logo.png"
               width="40"
               height="40"
               className="d-inline-block align-top"
