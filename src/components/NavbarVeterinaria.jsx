@@ -1,18 +1,15 @@
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
-import logo from '../images/logo.png';
 
 function BrandExample() {
   return (
     <>
-
-
       <Navbar bg="dark" variant="dark" className='py-3'>
         <Container>
-          <Navbar.Brand href="#home">
+          <Navbar.Brand href="index.html">
             <img
               alt="logo"
-              src={logo}
+              src="/images/logo.png"
               width="40"
               height="40"
               className="d-inline-block align-top"

@@ -5,7 +5,7 @@
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    background-image: url('../src/images/animales.jpg'); 
+    background-image: url('../public/images/animales.jpg'); 
   }
   
   .mainPage{
